@@ -1,0 +1,3 @@
+export const TODAYS_WEATHER = "TODAYS_WEATHER";
+export const OTHER_WEATHER = "OTHER_WEATHER";
+export const SET_ERROR = "SET_ERROR";

@@ -1,0 +1,48 @@
+.city-block {
+  display: flex;
+  flex-basis: 40%;
+  height: 100%;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.city-image {
+  width: 100%;
+  height: 100%;
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 10%;
+  transition: all 0.2s ease;
+}
+
+.city-block h2{
+  color: #FFF;
+  font-size: 2.5em;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.city-block h5{
+  color: #FFF;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .city-block{
+    margin-top: 25%;
+  }
+
+  .city-block h2 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .city-block{
+    display: none;
+  }
+}

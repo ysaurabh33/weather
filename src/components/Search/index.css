@@ -1,0 +1,41 @@
+.search-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.search {
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: inset 2px 5px 5px var(--secondary), inset -5px -5px 10px var(--white);
+}
+
+.city-name {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 20px 10px 20px 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.search-area button {
+  margin-left: 2%;
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 18px;
+  cursor: pointer;
+  box-shadow: inset -5px -5px 20px var(--white), inset 5px 5px 20px var(--secondary);
+  border: none;
+  border-radius: 10px;
+  color: var(--grey);
+  transition: all 0.2s ease-in-out;
+}
+
+.search-area button:hover, .search-area button.active {
+  box-shadow: inset -2px -2px 5px var(--white), inset 2px 2px 5px var(--secondary);
+  color: var(--black);
+}
