@@ -1,7 +1,7 @@
 import axios, { AxiosInstance } from "axios";
 import dayjs from 'dayjs';
 
-const API_KEY = "adea9f9875f9ad50fb8782d9d007778d";
+const API_KEY = "";
 const BASE_URL = "http://api.openweathermap.org/data/2.5/";
 
 class Service {
